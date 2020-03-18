@@ -1,6 +1,7 @@
 ## Whatsapp Clone Homepage
 
-![Home Page](https://github.com/Manishsharma203/portf/blob/master/whatsapp_clone/public/images/Homepage.png)
+![Home Page](https://github.com/Manishsharma203/portf/blob/master/whatsapp_clone/public/Homepage.png)
+
 
 ## Dependencies
 * Node : (http://nodejs.org/)
