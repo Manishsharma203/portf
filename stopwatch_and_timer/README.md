@@ -1,6 +1,6 @@
 ## Timer and Stopwatch
 
-![Home Page](https://github.com/Manishsharma203/portf/blob/master/stopwatch_and_timer/public/images/Homepage.png)
+![Home Page](https://github.com/Manishsharma203/portf/blob/master/stopwatch_and_timer/public/Homepage.png)
 
 ## Dependencies
 * Node : (http://nodejs.org/)
