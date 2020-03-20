@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href='currency_converter.css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <i class="material-icons navbar-brand text-white bg-primary rounded-pill" id='icon'>attach_money</i>
+        <h2 class="text-white">Currency Converter</h2>
+    </nav>
+    <!-- Currency 1 input -->
+    <div class="container my-5">
+        <h3>Enter the amount of Currency here</h3>
+        <div class="input-group">
+            <input type="number" id="num0">
+            <select class="input-control custom-select border-dark" id="currency_0">
+
+            </select>
+        </div>
+    </div>
+    <!-- Currency 2 input -->
+    <div class="container my-5">
+        <h3>Convert into...</h3>
+        <div>
+            <select class="custom-select border-dark" id="currency_1">
+
+            </select>
+        </div>
+    </div>
+    <!-- Submit button -->
+    <div class="container">
+        <div class="btn btn-primary" id="conv">Convert</div>
+    </div>
+
+    <!-- Division to display the converted currencies along with their respective flags -->
+    <div class="d-flex flex-row m-4" id='displayContent'>
+        <div class="col-5 ml-4 text-center">
+            <img src="" id='img1'>
+            <div class="display-4 text-dark font-weight-bold" id='show1'></div>
+        </div>
+        <div class="col-1"><i class="material-icons" id='icon2'>double_arrow </i> </div>
+        <div class="col-5 text-center">
+            <img src="" id='img2'>
+            <div class="display-4 text-dark font-weight-bold" id='show'></div>
+        </div>
+    </div>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="currency_converter.js"></script>
+
+</html>
